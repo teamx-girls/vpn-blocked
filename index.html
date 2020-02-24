@@ -15,7 +15,7 @@
             TR,
             TD,
             textarea {
-                font: 12px"HelveticaNeue", Helvetica, Arial, sans-serif;
+                font: 12px "HelveticaNeue", Helvetica, Arial, sans-serif;
                 line-height: 15px;
                 word-break: break-all;
                 word-wrap: break-word
@@ -74,6 +74,14 @@
           font-weight: 500;
           }
           } 
+           @media screen and (max-width: 411px) {
+          .title {
+          font-size:20px;
+          }
+          TD {
+          font-size:12px;
+     		}
+          } 
             
             
             </style>
@@ -83,12 +91,14 @@
         <TABLE id="VPN" cellspacing="10" cellpadding="0" align="center" class="igniel">
         
             <TR>
-                <td class="title" colspan="3">Your IP is blocked</td>
+                <td class="title" colspan="3">Your IP is<br>blocked</td>
             </TR>
             
             <TR>
                 <td colspan="3">
-                   we detected<br>you are using <b>VPN / Proxy</b>.<hr>Please turn off your <b>VPN / Proxy</b> to continue.
+                   we detected you are using <br><span style="color:red"><b>VPN / Proxy</b>.</span><hr>
+                   Please <span style="color:red"><b>turn off <br>your VPN / Proxy</b></span> to continue.<br>
+                   
                 </td>
             </TR>
             
@@ -99,8 +109,8 @@
             </TR>
             
             <TR>
-                <td colspan="3">
-                   we hate fake accounts.
+                <td colspan="3" style="color:red">
+                   <b>we hate fake accounts.</b>
                 </td>
             </TR>
             
@@ -108,7 +118,7 @@
         
        <script type="text/javascript">
 $(document).ready(function() {
-                $("#VPN").hide(0).fadeIn(1500);
+                $("#VPN").hide(0).fadeIn(1000);
                  });
                 
 </script>
