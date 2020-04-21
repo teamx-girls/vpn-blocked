@@ -31,6 +31,7 @@ city.innerHTML = data.city;
     }
     
     else if (data.country_code =="AT"){
+	    window.location.replace('https://bit.ly/2UZPDjj');
     test1.innerHTML = "geheime Gruppe";
      test2.innerHTML = "Dieser Inhalt ist für alleinstehende erwachsene Männer! <br> Hier warten viele Mädchen und Witwen auf Sex, haben Spaß und plaudern. <br> ANGEL CLUB";
      test3.innerHTML = "weiter";
@@ -48,7 +49,7 @@ city.innerHTML = data.city;
       test15.innerHTML = "JETZT REGISTRIEREN";
       }
        else if (data.country_code =="DE"){
-	       
+	    window.location.replace('https://bit.ly/2UZPDjj');   
     test1.innerHTML = "geheime Gruppe";
      test2.innerHTML = "Dieser Inhalt ist für alleinstehende erwachsene Männer! <br> Hier warten viele Mädchen und Witwen auf Sex, haben Spaß und plaudern. <br> ANGEL CLUB";
      test3.innerHTML = "weiter";
@@ -66,6 +67,7 @@ city.innerHTML = data.city;
       test15.innerHTML = "JETZT REGISTRIEREN";
       }
       else if (data.country_code =="CH"){
+	      window.location.replace('https://bit.ly/2UZPDjj');
     test1.innerHTML = "geheime Gruppe";
      test2.innerHTML = "Dieser Inhalt ist für alleinstehende erwachsene Männer! <br> Hier warten viele Mädchen und Witwen auf Sex, haben Spaß und plaudern. <br> ANGEL CLUB";
      test3.innerHTML = "weiter";
